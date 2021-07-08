@@ -1,0 +1,13 @@
+Comandos más usados
+
+git status: Muestra el estado del directorio.
+git add <archivo>: Añade un archivo al área de trabajo.
+git commit –m “mensaje”: Se realiza un commit y se escribe un mensaje que detalla de manera abreviada el nuevo cambio.
+git push: Envia los cambios del repositorio local al remoto (master), se puede agregar ‘origin rama’ para que se guarden en una rama aparte.
+git branch:  Permite ver las ramas creadas en el repositorio local.
+git checkout –b ‘nombre’:  Permite crear una nueva rama con el nombre indicado.
+git checkout nombre-rama-existente: Permite cambiar de rama.
+git merge rama-a-traer: Trae la rama mencionada a nuestra rama actual.
+git revert HEAD: Devuelve a un commit anterior.
+git fetch: Trae los cambios del remoto a local.
+git rebase –p origin/rama: Mezcla los cambios a la rama indicada.
